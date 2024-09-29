@@ -7,12 +7,14 @@ const Home = () => {
     return (
         <>
             <div>
-                <img src={enjeralogo} class="logo" alt="Habesha logo" />
+                <img src={enjeralogo} className="logo" alt="Habesha logo" />
             </div>
-            <h2>Habesha Runner Game</h2>
-            <div className="card">
+            <div className="text-overlay">
+                <h2 className="title">Habesha Runner Game</h2>
+            </div>
+            <div className="card play">
                 <Link to="/page1">
-                    <button>Play</button>
+                    <button className="play">Play</button>
                 </Link>
             </div>
         </>

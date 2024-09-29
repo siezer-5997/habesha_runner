@@ -28,9 +28,9 @@
   
   .stealkid {
     position: fixed;
-    bottom: 170px; /* Adjust as needed */
-    right: 450px; /* Adjust as needed */
-    width: 1000px; /* Adjust image width */
+    bottom: 300px; /* Adjust as needed */
+    right: 820px; /* Adjust as needed */
+    width: 700px; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
     z-index: 2; /* Ensure image appears above other content */
   }

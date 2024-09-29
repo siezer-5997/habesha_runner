@@ -4,6 +4,14 @@
 
 **Habesha Runner** is an endless vertical runner game. This game follows the adventurous journey of a kid who steals corn and escapes by running along roads and over cars, with buildings passing by on the sides.
 
+# This is a brief explanation of what the game looks like, its UI and the different components of the game are described thoroughly.
+
+- Here is what the first design of the game looks like:
+![Original Design](steal2.jpeg)
+
+- A link to the UI and UX design of the game in Figma:
+[Figma Design](https://www.figma.com/proto/WrYwej7t72t8Cyn3WmJoqV/Endless-running-(Community)?type=design&node-id=196-16&t=SaTlo6UpSZwg7xKu-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=46%3A138)
+
 ### Gameplay Features
 - **Endless Vertical Runner Gameplay**: 
   - Control the character's movement using the left, right, and up arrow keys.

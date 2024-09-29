@@ -37,9 +37,11 @@ const Page3 = () => {
                 </div>
             </div>
 
-
-            {/* Render woman image */}
-            <img src={stealkid} className="stealkid" alt="kid running stealing corn" />
+            <div >
+                {/* Render woman image */}
+                <img src={stealkid} className="stealkid" alt="kid running stealing corn" />
+            </div>
+            
 
             <div className="content">
                 <div className="card1">
@@ -49,7 +51,7 @@ const Page3 = () => {
                 </div>
                 <div className="card2">
                     <Link to="/page4">
-                        <button>Tab to Start Game</button>
+                        <button>Tab To Continue</button>
                     </Link>
                 </div>
             </div>

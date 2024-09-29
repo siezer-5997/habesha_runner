@@ -38,11 +38,20 @@
   z-index: 10; /* Ensure logo appears above other content */
 }
 
+
+/* Enlarging and enhancing the logo */
 .logo {
-  width: 100px; /* Adjust logo size as needed */
-  height: auto;
+  height: 15em; /* Make the logo larger */
+  padding: 1.5em;
+  transition: transform 0.3s, filter 0.3s; /* Smooth transitions for transform and filter */
+  will-change: transform, filter; /* Optimize for animations */
 }
 
+/* Logo hover effect */
+.logo:hover {
+  transform: scale(1.1); /* Slightly scale up on hover */
+  filter: drop-shadow(0 0 15px rgba(255, 255, 0, 0.8)); /* Glow effect */
+}
 .content {
   position: relative;
   z-index: 1; /* Ensure content appears above background image */
@@ -85,4 +94,53 @@
   font-weight: bold;
   text-align: center;
   z-index: 20; /* Ensure text appears above the image */
+}
+
+/* New class for enhancing text visibility */
+h2.title {
+  font-size: 3rem; /* Larger font size for prominence */
+  color: #ffffff; /* White text for contrast */
+  text-align: center;
+  margin-top: 30px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* More pronounced shadow for better readability */
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px; /* Spacing between letters for a sleek look */
+}
+
+/* Class to give a background overlay behind text for better visibility */
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background to make text stand out */
+  padding: 20px;
+  border-radius: 15px; /* Rounded corners */
+  display: inline-block; /* Wrap the content */
+  margin-top: 20px; /* Adjust the margin to fit */
+}
+
+/* Enhancing the play button */
+button.play {
+  background: linear-gradient(135deg, #c18737, #4597d5); /* Gradient background for a modern look */
+  color: white; /* White text */
+  padding: 20px 40px; /* Maintain the large padding */
+  font-size: 1.8rem; /* Slightly larger font */
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  border: none; /* Remove border */
+  border-radius: 50px; /* Fully rounded button */
+  cursor: pointer; /* Pointer cursor */
+  transition: all 0.3s ease; /* Smooth transitions for hover */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  text-transform: uppercase; /* Make the text uppercase for a bold look */
+  letter-spacing: 1px; /* Slight letter spacing for a sleek appearance */
+}
+
+/* Add hover effect */
+button.play:hover {
+  background: linear-gradient(135deg, #e6d044, #dcb139); /* Darker gradient on hover */
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+/* Active (click) effect */
+button.play:active {
+  transform: translateY(0); /* Button returns to original position */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow when clicked */
 }
